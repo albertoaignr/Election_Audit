@@ -10,11 +10,13 @@ One of the needs to generate a solution to analyze the results of an election wi
 
 ## Results 
 
-In the following image it can be seen the display of the election results, divided by counties, votes and votes percentage. Also, the county with most votes and the overall candidate winner.
+It all started with the data analysis, where 
+
+In the following image it can be seen the display of the election results in a diferent tab once we run our code, divided by counties, votes and votes percentage. Also, the county with most votes and the overall candidate winner.
 
 ![Election_Audit.png](/Resources/Election_Audit.png)
 
-There is a bulleted list where each election outcome is addressed
+From it we can say the data has been counted and congratulations will be given to the winner candidate, Diana DeGette. Though all the votes weren't from Denver county, she had a lot of support from it. 
 
 ## Summary 
 
