@@ -45,12 +45,12 @@ In the following image, it can be seen the display of the election results in th
 
 This same script could be used to determine any election results in the same format, with just a slight variation in the name of the variables and display.
 
- 1st. modifying 'file_to_read' and 'file_to_save'
+ ### 1st. modifying 'file_to_read' and 'file_to_save'
 
 By analyzing the script, most of the process is made out of variables to get the information from the CSV file or to write the results to a text file. 
 This process is already automated taking into consideration this paths, which can certainly work only if a new CSV file correspond with similar pattern of data or at least has the same tabular information used in this challenge for the 'file_to_read'. As well as 'file_to_save', it could be different to not overwrite information and it could be stored for accountability's purpose. 
 
-  2nd. modifying 'County' to 'States'           
+ ### 2nd. modifying 'County' to 'States'           
  
 In this case it is an election run by 'County', it could be Primary or for Governor, but if there is a different one like Presidential, the display of the results and internal variables have to change for clarity purposes as this one evalate 'States'.  
  
