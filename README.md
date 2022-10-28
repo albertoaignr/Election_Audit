@@ -8,15 +8,38 @@ In an electoral process there should always be transparency in the results, in t
 
 One of the needs to generate a solution to analyze the results of an election with a large dataset, besides the time consuming, is to quickly give a result without involving much human error into it. The audit process will be made by taking into consideration the total votes for the elections, divided by counties, and the winner will be selected by the candidate with most approval. In this case the selection will consider the one with the most votes and the results will be saved in a text file.
 
-## Results 
+## Election Results 
 
-It all started with the data analysis, where 
+The script for this analysis starts in two parts, 'read' file part: by declaring all the variables that are going to store information from the CSV file and 'write': which is going to display and write the results in a '.txt' file. It has to be an iterative process (using the 'for' loop) to collect the votes and by applying conditionals ('if') to group and count for each candidate/county in the data. To read or save any information into a file, it was used the code imported from the CSV library, 'With open() as ():' and 'txt_file.write()', respectively. By running the code with python, it is seen all the information we need to answer a few questions. 
 
-In the following image it can be seen the display of the election results in a diferent tab once we run our code, divided by counties, votes and votes percentage. Also, the county with most votes and the overall candidate winner.
+1. How many votes were cast in this congressional election?
 
-![Election_Audit.png](/Resources/Election_Audit.png)
+A total of 369,711 total votes were cast in this election. 
 
-From it we can say the data has been counted and congratulations will be given to the winner candidate, Diana DeGette. Though all the votes weren't from Denver county, she had a lot of support from it. 
+2. The breakdown of the number of votes and the percentage of total votes for each county in the precinct is: 
+
+- County votes:  
+ - Jefferson: 10.5% (38,855)
+ - Denver: 82.8% (306,055)
+ - Arapahoe: 6.7% (24,801)
+
+From this data it is clear that Denver was the county with the largest number of votes. 
+
+3. Provide a breakdown of the number of votes and the percentage of the total votes each candidate received.
+
+ - Charles Casper Stockham: 23.0% (85,213)
+ - Diana DeGette: 73.8% (272,892)
+ - Raymon Anthony Doane: 3.1% (11,606)
+
+4. Which candidate won the election, what was their vote count, and what was their percentage of the total votes?
+
+                                                Winner: Diana DeGette
+                                                Winning Vote Count: 272,892
+                                                Winning Percentage: 73.8%
+
+In the following image, it can be seen the display of the election results in the text file, making sure our code worked perfectly. 
+
+![Election_Audit.png](/Resources/Election_Audit.png) 
 
 ## Summary 
 
@@ -26,5 +49,10 @@ There is a statement to the election commission that explores how this script ca
 By analyzing the script, most of the process is made out of variables to get the information from the CSV file or to write the results to a new text file. 
 This process is already automated taking into consideration this paths, which can certainly work only if a new CSV file correspond with similar pattern of data or at least the same tabular information used in this challenge. The path to save a file also could be different to not overwrite information and store for accountability's purpose. 
 
+            ###Summary
             modifying: file_to_read from resources folder  
             modifying: file_to_save for analysis folder 
+            
+            
+ Change counties for States?
+ TYPE OF ELECTIONS Primary, Specials, Presidential.
