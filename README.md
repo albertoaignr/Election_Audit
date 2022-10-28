@@ -1,6 +1,6 @@
 # Election Audit
 
-Whenever there is a large amount of data, the gathering and processing of it has to be by means of a computer software, in this challenge we will be making use of Python as a tool to retrieve and display information for an Election Audit. Python, is a programming language that, in this particular case, will allow us to interact with the computer to retrieve and modify information from selected files.
+Whenever there is a large amount of data, the gathering and processing of it has to be by means of a computer software, in this challenge we will be making use of Python as a tool to retrieve and display information for an Election Audit. Python, is a programming language that, in this particular case, will allow us to interact with the computer to retrieve and modify information from selected files, by using a code editor (VS Code) to generate a script.
 
 ## Overview
 
